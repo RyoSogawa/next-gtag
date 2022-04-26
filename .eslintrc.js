@@ -35,6 +35,7 @@ module.exports = {
     'react/require-default-props': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/space-before-blocks': 'off',
     'object-shorthand': ['error', 'properties'],
     'no-console': [
       'error',
@@ -45,6 +46,7 @@ module.exports = {
     'no-restricted-exports': 'off',
     'consistent-return': 'off',
     'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
   overrides: [
     {

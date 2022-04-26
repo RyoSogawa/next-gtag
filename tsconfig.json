@@ -17,7 +17,7 @@
     "moduleResolution": "Node"
   },
   "exclude": [
-    "src/stories"
+    "lib/**/*"
   ],
   "include": ["src/**/*"]
 }
