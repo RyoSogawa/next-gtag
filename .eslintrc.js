@@ -5,7 +5,6 @@ module.exports = {
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:storybook/recommended',
     'prettier',
   ],
   plugins: ['@typescript-eslint', 'jsx-a11y', 'react', 'react-hooks'],
