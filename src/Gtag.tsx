@@ -24,7 +24,7 @@ const Gtag: React.FC<GtagProps> = ({ trackingId }) => {
   }, [router.events, trackingId])
 
   return (
-    <>
+    <React.Fragment>
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}
@@ -44,7 +44,7 @@ const Gtag: React.FC<GtagProps> = ({ trackingId }) => {
           `,
         }}
       />
-    </>
+    </React.Fragment>
   )
 }
 
