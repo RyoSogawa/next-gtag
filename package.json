@@ -1,17 +1,17 @@
 {
-  "name": "gtag-next-js",
+  "name": "next-gtag",
   "description": "Simple Gtag tracker for Next.js",
   "author": "RyoSogawa",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/RyoSogawa/gtag-next-js.git"
+    "url": "git+ssh://git@github.com/RyoSogawa/next-gtag.git"
   },
   "bugs": {
-    "url": "https://github.com/RyoSogawa/gtag-next-js/issues"
+    "url": "https://github.com/RyoSogawa/next-gtag/issues"
   },
-  "homepage": "https://github.com/RyoSogawa/gtag-next-js",
+  "homepage": "https://github.com/RyoSogawa/next-gtag",
   "keywords": [
     "nextjs",
     "gtag",
