@@ -17,13 +17,16 @@
     "gtag",
     "typescript"
   ],
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "source": "./src/index.ts",
+  "main": "./lib/index.js",
+  "module": "./lib/index.module.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "prebuild": "rimraf ./lib",
+    "build": "microbundle --jsx React.createElement --no-sourcemap --compress",
     "format": "prettier --write \"src/**/*.(js|ts|jsx|tsx)\"",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "yarn lint --fix",
@@ -60,11 +63,13 @@
     "husky": "^7.0.0",
     "jest": "^27.4.7",
     "lint-staged": "^12.3.3",
+    "microbundle": "^0.15.0",
     "next": "^12.1.5",
     "node-notifier": "^10.0.0",
     "prettier": "^2.5.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "rimraf": "^3.0.2",
     "typescript": "^4.5.4"
   },
   "lint-staged": {
