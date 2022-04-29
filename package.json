@@ -15,7 +15,8 @@
   "keywords": [
     "nextjs",
     "gtag",
-    "typescript"
+    "typescript",
+    "google analytics"
   ],
   "files": [
     "lib"
