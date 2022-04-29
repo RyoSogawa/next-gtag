@@ -1,2 +1,2 @@
 export { default as NextGtag } from './NextGtag'
-export { default as useGtagEvent } from './useGtagEvent'
+export { gtagEvent } from './utils'
