@@ -2,11 +2,11 @@ import React, { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 
-interface GtagProps {
+export interface NextGtagProps {
   trackingId: string
 }
 
-const Gtag: React.FC<GtagProps> = ({ trackingId }) => {
+const NextGtag: React.FC<NextGtagProps> = ({ trackingId }) => {
   const router = useRouter()
 
   useEffect(() => {
@@ -48,4 +48,4 @@ const Gtag: React.FC<GtagProps> = ({ trackingId }) => {
   )
 }
 
-export default Gtag
+export default NextGtag

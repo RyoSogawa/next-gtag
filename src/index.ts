@@ -1,5 +1,2 @@
-import Gtag from './Gtag'
-import useGtagEvent from './useGtagEvent'
-
-export default Gtag
-export { useGtagEvent }
+export { default as NextGtag } from './NextGtag'
+export { default as useGtagEvent } from './useGtagEvent'
