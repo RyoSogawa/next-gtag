@@ -18,9 +18,6 @@
     "typescript",
     "google analytics"
   ],
-  "files": [
-    "lib"
-  ],
   "source": "./src/index.ts",
   "main": "./lib/index.js",
   "module": "./lib/index.module.js",

@@ -13,6 +13,5 @@ tests/
 .npmrc
 CHANGELOG.md
 jest.config.js
-LICENSE
 README.md
 tsconfig.json
