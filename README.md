@@ -8,6 +8,9 @@
 Simple Gtag tracker for Next.js.  
 Core source code is copied from [Next.js official example](https://github.com/vercel/next.js/tree/canary/examples/with-google-analytics).
 
+## Requirements
+- Next.js (v11.0.0 or later)
+
 ## Features
 - 👋 Easy and simple to use
 - 🚀 High Performance by [next/script](https://nextjs.org/docs/api-reference/next/script)
