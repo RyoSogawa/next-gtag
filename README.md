@@ -3,8 +3,6 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-⚠️ **This is a very early version. It is not ready for production use.** ⚠️
-
 Simple Gtag tracker for Next.js.  
 Core source code is copied from [Next.js official example](https://github.com/vercel/next.js/tree/canary/examples/with-google-analytics).
 
