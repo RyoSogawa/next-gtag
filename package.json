@@ -2,7 +2,7 @@
   "name": "next-gtag",
   "description": "Simple Gtag tracker for Next.js",
   "author": "RyoSogawa",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
   "repository": {
     "type": "git",
