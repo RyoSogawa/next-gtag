@@ -27,6 +27,7 @@ module.exports = {
     },
   },
   rules: {
+    'react/no-danger': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-no-target-blank': 2,

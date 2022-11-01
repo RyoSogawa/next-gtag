@@ -26,7 +26,7 @@ yarn add next-gtag
 ```
 
 ## Usage
-in `pages/_app.js`:
+`pages/_app.js`:
 ```tsx
 import { NextGtag } from "next-gtag";
 
@@ -40,6 +40,25 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+```
+
+`pages/_document.js`:
+```tsx
+import { Html, Head, Main, NextScript } from 'next/document'
+import { gtagScript } from "next-gtag";
+
+export default function Document() {
+  return (
+    <Html>
+      <Head />
+      <body>
+      <Main />
+      <NextScript />
+      {gtagScript}
+      </body>
+    </Html>
+  )
+}
 ```
 
 Then, gtag tracking will be added to your page. 🥳
