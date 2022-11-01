@@ -1,3 +1,5 @@
+import React from 'react'
+
 export interface EventOptions {
   value: number
   category?: string
@@ -16,3 +18,15 @@ export const gtagEvent = (
     non_interaction: nonInteraction,
   })
 }
+
+export const gtagScript = (
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          `,
+    }}
+  />
+)
